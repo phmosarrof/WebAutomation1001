@@ -32,5 +32,6 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/Downloads/selenium-java-3.13.0/client-combined-3.13.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

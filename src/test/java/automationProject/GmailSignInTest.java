@@ -1,20 +1,19 @@
 package automationProject;
 
-
 import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class GmailSignInTest {
-	private static final WebElement signout = null;
+	
 
 	public GmailSignInTest() {
 	}
 	public static void main(String[] args) throws Throwable {
 
-		System.setProperty("webdriver.chrome.driver","./drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\Mosarrof Hossain\\Utilities\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver(); 	// You can use any other web browser.
 
@@ -38,11 +37,11 @@ public class GmailSignInTest {
 
 		driver.findElement(By.id("passwordNext")).click();
 
-		WebElement logout=driver.findElement(By.cssSelector("span.gb_4.gbii"));
+		/*WebElement logout=driver.findElement(By.cssSelector("span.gb_4.gbii"));
 		logout.click();
 
 		driver.findElement(By.id("gb_71")).click();
-		signout.click();
+		signout.click();*/
 
 		// assert.assertEquals(true, driver.getPageSource.contains("Google"));
 
